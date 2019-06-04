@@ -37,6 +37,11 @@ public class PresAda implements SensorInter {
         JLabel j2 = new JLabel();
         j2.setText(info + "  "+ val);
 
+        /*
+        *The UI should not be in the adapter, you can have the color be returned
+        *
+        */        
+        
         if(val<5){
             jl.setBackground(Color.GREEN);
 
