@@ -23,6 +23,12 @@ import javax.swing.JFrame;
 * */
 
 
+/*
+*CODE REVIEW:
+*I talked to sara and she said she wanted the UI to be outside of the adapter.
+*Also the sensor interface should have a read(), report(), and type(); it helps with readability
+*/
+
 public class UiFunction extends JFrame {
     /*
     * generate the ui
